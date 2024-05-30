@@ -1,0 +1,202 @@
+/*General Stuff*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'PixelFont';
+    src: url('joystix\ monospace.otf') format('truetype');
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'PixelFont', sans-serif; 
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+main {
+    padding: 1%;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 250%;
+    text-align: center;
+    padding: 1%;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*Utilities*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hSpace {
+    margin: 0 4%;
+}
+
+.vSpace {
+    margin: 4% 0;
+}
+
+.vSpace2 {
+    margin: 8% 0;
+}
+
+#title3 {
+    color: rgb(117, 117, 255);
+}
+
+/*Nav Bar*/
+.header {
+    width: 100%;
+    height: 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 45px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#KOLogo {
+    width: 15%;
+    align-self: center;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 16px;
+    color: darkgoldenrod;
+    font-weight: 200;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: darkgoldenrod;
+    transition: .2s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+
+/*Characters Presentetion*/
+.characters {
+    width: 70%;
+    padding: 1%;
+    text-align: justify;
+}
+
+.presentation {
+    padding: 1%;
+}
+
+.character {
+    display: flex;
+    padding: 1%;
+    height: auto;
+    padding: 10px;
+    transform: scale(0.9) rotate(1deg);
+    transition-duration: .2s;
+    border: 1px solid transparent;
+    text-align: justify;
+}
+
+.character:hover {
+    transform: scale(1) rotate(0deg);
+    box-shadow: 0 0 15px rgba(122, 73, 0, 0.5);
+    background-color: rgba(255, 153, 0, 0.534); 
+}
+
+.lore {
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+#container1 {
+    display: flex;
+    justify-content: center;
+}
+
+#game {
+    justify-content: center;
+    text-align: justify;
+}
+
+
+#gamePresentation {
+    width: 70%;
+    align-self: center;
+    text-align: justify;
+    text-align: justify;
+}
+
+#companie {
+    padding-bottom: 3%;
+}
+
+#companiePresentation {
+    width: 70%;
+    text-align: justify;
+}
+
+#teamPres {
+    width: 80%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.groupPresentation {
+    display: flex;
+    justify-content: center;
+}
+
+#person {
+    padding: 2%;
+    transform: scale(1);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-align: justify;
+    width: 50%;
+}
+
+#person:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(122, 73, 0, 0.5);
+    background-color: rgba(255, 153, 0, 0.534);
+}
