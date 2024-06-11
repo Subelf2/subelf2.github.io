@@ -1,0 +1,15 @@
+Pour mettre une image en bas a droite 
+   div 
+   {
+	display: flex;
+	justify-content: flex-end;
+
+	height:100vh;
+	align-items: flex-end;
+   }
+
+ <body>
+	<img src="carmen.png" width="180">
+ </body>
+
+/Pour mettre une image en bas a droite
