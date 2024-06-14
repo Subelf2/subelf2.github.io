@@ -200,3 +200,27 @@ h3 {
     box-shadow: 0 0 10px rgba(122, 73, 0, 0.5);
     background-color: rgba(255, 153, 0, 0.534);
 }
+
+.footer {
+    position: absolute;
+    bottom: -600px; /* Ajusté pour définir la distance du bas */
+    right: 10px; /* Ajusté pour définir la distance de la droite */
+}
+
+.footer-L6E {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: -350px; /* Ajusté pour définir la distance du bas */
+    right: 10px; /* Ajusté pour définir la distance de la droite */
+}
+
+.footer3 {
+    position: absolute;
+    bottom: -100px; /* Ajusté pour définir la distance du bas */
+    right: 10px; /* Ajusté pour définir la distance de la droite */
+}
+
